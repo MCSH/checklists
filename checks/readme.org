@@ -1,0 +1,81 @@
+# Readme Checklist
+
+A checklist for writing readme files.
+
+* Project Identity
+
+Ensure the project is identifiable by the user.
+
+** Name the file
+
+The readme file should be named `README` or `README.extension`, where extension is either `txt`, `md`, `rst` or any other formatting options
+
+** Heading
+
+Ensure the first heading is the project name
+
+** URL
+
+Add project homepage or repository to the top.
+
+* Describe the Project
+
+** What does the project do?
+
+Use descriptive language to describe what it does, examples:
+
+*** With <PROJECT> you can <VERB>
+
+*** <PROJECT> helps you building <FEATURE>
+
+*** <PROJECT> takes care of <PROBLEM>
+
+** DO NOT explain how the project is made in this part
+   
+You can add how the project is made, the language, etc. in a latter section. Avoid doing so in the introduction unless it is absolutely necessary.
+
+** Explain who can use the project
+
+Either provide a link to the LICENSE file, or a short description of it.
+
+Example: This project is distributed under MIT, you are free to copy, modify and describe with attribution under the terms of the MIT license.
+
+* Help the reader use the project
+
+** Provide prerequisites
+
+Example: You need to install `git` and `python>3.5` to use this project.
+
+** Compile and Install
+
+Explain, or provide a link, to compilation and installation process for this project. You should provide an easy to follow, step by step guide to install it. Do not overcrowd it with useless information/configuration unless absolutely necessary, there is another place for that.
+
+** Testing the Installed Software
+
+Provide a one liner command to ensure the software is installed.
+
+Example: `git --version`
+
+* Help the reader engage with the project
+
+** Documentation
+
+Tell the user where to find detailed information about the software's documentation. This could include a link to a website, a link to a file, or a command to generate the documentation.
+
+** Help
+
+Tell the user where to find help. Should they open an issue for everything? Should they join an IRC or a forum to ask for help? Is there a stackoverflow tag dedicated to this?
+
+** Contribution Guide
+   
+How can the user help improve or expand the project? Tell them where they should go and what they should do if they want to help.
+
+* Odds and Ends
+
+** Add a table of content
+
+Not every project needs this, but if the readme is too long, or if you feel like it, provide a table of content.
+
+** Spell Check
+
+Run a spell checker on your readme. You might just miss somethings.
